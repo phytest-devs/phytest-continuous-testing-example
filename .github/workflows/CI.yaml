@@ -1,5 +1,7 @@
 name: CI
 
+on: [push]
+
 jobs:
   phytest:
     runs-on: ubuntu-latest
