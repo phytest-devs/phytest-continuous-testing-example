@@ -19,4 +19,4 @@ jobs:
         pip install phytest
     - name: Run phytest
       run: |
-        phytest tests.py --data data/ebola_metadata.csv -a data/ebola.fasta -t data/ebola.fasta.treefile
+        phytest tests.py --data data/ebola_metadata.csv -s data/ebola.fasta -t data/ebola.fasta.treefile
