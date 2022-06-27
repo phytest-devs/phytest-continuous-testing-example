@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install phytest
+        pip install phytest>=0.9
     - name: Run phytest
       run: |
         phytest tests.py --data data/ebola_metadata.csv -s data/ebola.fasta -t data/ebola.fasta.treefile
