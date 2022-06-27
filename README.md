@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml/badge.svg)](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml)
 
-In this example we use [phytest](https://github.com/phytest-devs/phytest) to test data shared on GitHub every time it changes. We can use run tests against our using the Continuous integration (CI) features tht are freely available through GitHub. Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. Using github actions we will ensure that anytime our data changes (common during development) that tests will be run against our data.
+In this example we use [phytest](https://github.com/phytest-devs/phytest) to test data shared on GitHub every time it changes. We can run tests against our data using the Continuous integration (CI) features that are freely available through GitHub. Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. Using github actions we will ensure that anytime our data changes (common during development) that tests will be run against our data.
 
 
 ## Dataset 
