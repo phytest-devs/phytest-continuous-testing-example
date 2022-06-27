@@ -11,7 +11,7 @@ We are using a dataset of sequence from the [2014 ebola virus outbreak](). Durin
 
 ## Tests
 
-To ensure that we are sharing the correct data in our repository we have two simple tests to ensure our sequence alignment, tree, and metadata file all contain the same data. 
+To ensure that we are sharing the correct data in our repository we have two simple tests to ensure our sequence alignment, tree, and metadata files are all congruent. 
 
 ```Python
 from phytest import Sequence, Tree, DataFrame
