@@ -51,7 +51,7 @@ jobs:
         pip install phytest
     - name: Run phytest
       run: |
-        phytest tests.py --data data/ebola_metadata.csv -a data/ebola.fasta -t data/ebola.fasta.treefile
+        phytest tests.py --data data/ebola_metadata.csv -s data/ebola.fasta -t data/ebola.fasta.treefile
 ```
 
 Every time we push to the repository our actions will run. We can see the output of the action on the [Actions tab](https://github.com/phytest-devs/phytest-continuous-testing-example/actions) of our repo. We can also create badges to display the status of our actions e.g. [![CI](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml/badge.svg)](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml). If the tests fail we will get an email from GitHub and the badge status will change to failing. 
