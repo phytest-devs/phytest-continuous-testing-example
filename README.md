@@ -1,6 +1,6 @@
 # Continuous testing with Phytest
 
-[![CI](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml/badge.svg)](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml)
+[![CI](https://github.com/phytest-devs/phytest-continuous-testing-example/actions/workflows/CI.yaml/badge.svg)](https://phytest-devs.github.io/phytest-continuous-testing-example/)
 
 In this example Phytest is used to test data shared on GitHub every time the data is updated. Tests are run against the phylogenetic data using the Continuous Integration features that are freely available through GitHub (other services are also available). Using Phytest through [GitHub Actions](https://github.com/features/actions) ensures that anytime the data changes (common during development) they still meet the requirements defined in the tests
 
