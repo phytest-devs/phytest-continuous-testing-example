@@ -19,4 +19,10 @@ jobs:
         pip install phytest
     - name: Run phytest
       run: |
-        phytest tests.py --data data/ebola_metadata.csv -a data/ebola.fasta -t data/ebola.fasta.treefile
+        phytest tests.py --data data/ebola_metadata.csv -a data/ebola.fasta -t data/ebola.fasta.treefile --report report/index.html
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: report # The folder the action should deploy.
+
